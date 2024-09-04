@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+  background-image: url(assets/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(6px);
+}
+.clock {
+  font-size: 7rem;
+  color: white;
+  text-align: center;
+  padding: 15rem;
+  font-family: monospace;
+}
