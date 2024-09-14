@@ -1,0 +1,27 @@
+
+    body{
+
+
+        background-color:bisque ;
+    }
+    nav{
+        background-color: darkkhaki
+    }
+    nav,ul{
+        padding: 0px;
+        display: flex;
+    }
+    ul{
+        gap: 40px;
+        margin-left: 1200px;
+        font-size: 15px;
+    }
+    li.hover{
+        background-color: lightgray;
+    }
+   
+   
+    
+
+ 
+

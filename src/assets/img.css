@@ -1,0 +1,24 @@
+Img{
+    padding: auto;
+    border: 5px;
+    border-style: double;
+    
+}
+.Img2
+{
+    
+    margin-left: 20px;
+}
+.Img3{
+    margin-left: 30px;
+    margin-top: 200px;
+
+}
+.Img4{
+    width:1%;
+}
+.Img1, .Img2, .Img3 , .Img4{
+    display: inline-block;
+    vertical-align: top;
+    gap: 5px;
+  }
