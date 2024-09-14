@@ -1,15 +1,10 @@
 import React from "react";
-import Nav from "./assets/nav";
-import Img from "./assets/img";
+import Number from "./assets/Number";
 function App() {
   return (
-    <>
-      <div className="App">
-        <Nav />
-        <h1> We Bare Bears</h1>
-        <Img />
-      </div>
-    </>
+    <div>
+      <Number />
+    </div>
   );
 }
 
