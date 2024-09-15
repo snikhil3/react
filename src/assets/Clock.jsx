@@ -10,6 +10,7 @@ function Clock() {
       clearInterval(intervalID);
     };
   }, []);
+
   function formatTime() {
     let h = time.getHours();
     const m = time.getMinutes();
@@ -18,8 +19,10 @@ function Clock() {
     h = h % 12 || 12;
     return `${h}:${m}:${s} ${meridiem}`;
   }
+
   return (
     <div className="containeer">
+      <h1>Live Clock</h1>
       <div className="clock">
         <span>{formatTime()}</span>
       </div>
