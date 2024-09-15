@@ -1,0 +1,23 @@
+body {
+  padding: 100px;
+  background-color: antiquewhite;
+}
+.container {
+  text-align: center;
+  width: 50 px;
+  height: fit-content;
+}
+.colour-display {
+  height: 320px;
+  width: 300px;
+  align-items: center;
+  display: flex;
+  margin-left: 500px;
+  border-radius: 3px;
+  border-style: solid;
+}
+.colour-display p {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
